@@ -72,12 +72,6 @@ The configuration page allows you to enable or disable:
 
 The number of entries displayed in each detailed list can be limited from 10 to 300. The default limit is 100.
 
-## Upgrading from `psoft_devbar`
-
-`psoft_debugbar` has a different technical name and is treated by PrestaShop as a new module.
-
-Do not install both modules at the same time. Follow the instructions in [UPGRADING.md](UPGRADING.md) to remove the legacy module and install PrestaShop Debug Bar safely.
-
 ## Security
 
 The bar can expose SQL statements, template paths, controller names and environment details. It should only be available to trusted administrators.
