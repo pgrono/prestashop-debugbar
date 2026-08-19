@@ -1,4 +1,4 @@
-# PrestaShop Debug Bar
+# PrestaShop Debug Bar module
 
 A free and open-source storefront diagnostics bar for PrestaShop developers and store administrators.
 
