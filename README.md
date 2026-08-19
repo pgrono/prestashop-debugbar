@@ -6,17 +6,12 @@ PrestaShop Debug Bar provides useful information about the current request witho
 
 ## Screenshot
 
-_A screenshot of the module will be added here._
 
-<!--
-Add the screenshot as docs/images/debugbar-preview.png, then replace the line above with:
 
 ![PrestaShop Debug Bar showing request diagnostics](docs/images/debugbar-preview.png)
--->
+
 
 ## Demo video
-
-_A video presenting the module in action will be added here._
 
 
 After publishing the video, replace the line above with a linked thumbnail, for example:
