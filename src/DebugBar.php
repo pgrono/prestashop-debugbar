@@ -1,10 +1,25 @@
 <?php
 
+namespace PrestaSoft\PrestaShopDebugBar;
+
 if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class PsoftDebugbar
+use Configuration;
+use Context;
+use Cookie;
+use Db;
+use Employee;
+use Exception;
+use Hook;
+use Language;
+use psoft_debugbar;
+use Smarty_Internal_Template;
+use Tools;
+use Validate;
+
+class DebugBar
 {
     protected $module;
     protected $context;

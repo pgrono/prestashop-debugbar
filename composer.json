@@ -1,0 +1,24 @@
+{
+    "name": "prestasoft/prestashop-debugbar",
+    "description": "A lightweight storefront diagnostics bar for PrestaShop.",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PrestaSoft.pl",
+            "homepage": "https://prestasoft.pl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaSoft\\PrestaShopDebugBar\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

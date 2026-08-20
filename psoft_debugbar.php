@@ -9,7 +9,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-require_once __DIR__ . '/classes/PsoftDebugbar.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 class psoft_debugbar extends Module
 {
@@ -33,12 +33,12 @@ class psoft_debugbar extends Module
     {
         $this->name = 'psoft_debugbar';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'PrestaSoft.pl';
         $this->need_instance = 0;
         $this->bootstrap = true;
         $this->ps_versions_compliancy = array(
-            'min' => '1.7.0.0',
+            'min' => '1.6.1.0',
             'max' => _PS_VERSION_,
         );
 
@@ -50,7 +50,7 @@ class psoft_debugbar extends Module
         $this->backOfficeHeaderHookName = version_compare(_PS_VERSION_, '1.7.7.0', '<')
             ? 'backOfficeHeader'
             : 'displayBackOfficeHeader';
-        $this->debugbar = new PsoftDebugbar($this);
+        $this->debugbar = new \PrestaSoft\PrestaShopDebugBar\DebugBar($this);
     }
 
     public function install()

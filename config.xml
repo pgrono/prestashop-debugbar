@@ -2,7 +2,7 @@
 <module>
     <name>psoft_debugbar</name>
     <displayName><![CDATA[PrestaShop Debug Bar]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Displays a lightweight diagnostic bar on the storefront for logged-in administrators.]]></description>
     <author><![CDATA[PrestaSoft.pl]]></author>
     <tab><![CDATA[administration]]></tab>

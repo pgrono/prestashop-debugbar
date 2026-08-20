@@ -40,6 +40,19 @@ The module sends private no-cache response headers while the bar is active. Its 
 | thirty bees | 1.7 |
 | PHP | 7.1 through 8.4 |
 
+## Architecture and autoloading
+
+The module uses Composer PSR-4 autoloading. Classes in `src/` use the
+`PrestaSoft\\PrestaShopDebugBar` namespace. Release packages include the
+generated `vendor/autoload.php`, so Composer is not required on the store.
+
+When working directly from the source repository, rebuild the optimized
+autoload files with Composer 2.2 LTS to preserve PHP 7.1 compatibility:
+
+```bash
+composer install --no-dev --optimize-autoloader
+```
+
 ## Installation
 
 1. Download or clone this repository.

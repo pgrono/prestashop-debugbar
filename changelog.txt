@@ -1,0 +1,18 @@
+psoft_debugbar - Historia wersji
+
+Wersja 1.0.1 - 2026-08-20
+- Dodano autoloading PSR-4 przez Composer dla klas modułu.
+- Przeniesiono główną logikę paska diagnostycznego do przestrzeni nazw PrestaSoft\PrestaShopDebugBar.
+- Zachowano zgodność z PHP 7.1-8.4 oraz PrestaShop 1.6-9.x i thirty bees.
+
+Wersja 1.0.0 - 2026-08-19
+- Wydano moduł pod nową nazwą techniczną psoft_debugbar jako bezpłatny projekt open source.
+- Uproszczono architekturę do jednej klasy zgodnej z PHP 7.1-8.4, bez pustych klas zależnych od wersji PHP.
+- Zmieniono wszystkie teksty źródłowe modułu na angielskie i dodano tłumaczenia dla języków używanych w PrestaSoft oraz PrestaAddons.
+- Zachowano diagnostykę SQL, hooków, szablonów TPL, wydajności i kontekstu strony oraz sekcję autora.
+- Dodano dokumentację instalacji, migracji ze starego psoft_devbar i licencję MIT.
+- Zaktualizowano FAQ w kopii PS 8.1 i uzupełniono wersje PL/EN/DE/FR/ES/CS/IT/PT/NL/DA.
+- Powiązano język komunikatu autora i właściwy serwis z językiem profilu zalogowanego pracownika.
+- Dodano lokalne komunikaty autora dla PL/EN/DE/FR/ES/CS/IT/PT/NL/DA oraz angielski fallback dla pozostałych języków.
+- Rozbudowano angielski README dla GitHuba o instalację, konfigurację, bezpieczeństwo, wsparcie projektu oraz miejsca na screenshot i film.
+- Dodano opcjonalny pomiar łącznego czasu i liczby wywołań hooków wraz z osobnym przełącznikiem w konfiguracji.
